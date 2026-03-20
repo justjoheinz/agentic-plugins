@@ -1,0 +1,12 @@
+{
+  "name": "ramsify",
+  "description": "Redesign a web UI according to Dieter Rams' ten design principles: single accent color, IBM Plex Sans typography, 2px border-radius, no shadows, semantic button classes, icon discipline, and keyboard focus states.",
+  "version": "0.1.0",
+  "author": {
+    "name": "justjoheinz"
+  },
+  "homepage": "https://github.com/justjoheinz/agentic-plugins/tree/main/plugins/ramsify",
+  "repository": "https://github.com/justjoheinz/agentic-plugins",
+  "license": "MIT",
+  "keywords": ["ui", "design", "dieter-rams", "css", "redesign", "minimalism"]
+}

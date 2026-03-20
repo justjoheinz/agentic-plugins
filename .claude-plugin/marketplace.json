@@ -1,0 +1,15 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "agentic-plugins",
+  "owner": {
+    "name": "justjoheinz",
+    "url": "https://github.com/justjoheinz"
+  },
+  "plugins": [
+    {
+      "name": "ramsify",
+      "description": "Redesign a web UI according to Dieter Rams' ten design principles: single accent color, IBM Plex Sans typography, 2px border-radius, no shadows, semantic button classes, icon discipline, and keyboard focus states.",
+      "source": "./plugins/ramsify"
+    }
+  ]
+}
