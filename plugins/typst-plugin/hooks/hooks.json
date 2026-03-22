@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "FILE=$(jq -r '.tool_input.file_path // empty'); [ -n \"$FILE\" ] && echo \"$FILE\" | grep -q '\\.typ$' && typst compile \"$FILE\" || true",
+            "statusMessage": "Compiling Typst file..."
+          }
+        ]
+      }
+    ]
+  }
+}

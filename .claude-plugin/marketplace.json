@@ -10,6 +10,11 @@
       "name": "ramsify",
       "description": "Redesign a web UI according to Dieter Rams' ten design principles: single accent color, IBM Plex Sans typography, 2px border-radius, no shadows, semantic button classes, icon discipline, and keyboard focus states.",
       "source": "./plugins/ramsify"
+    },
+    {
+      "name": "typst-plugin",
+      "description": "Auto-compile Typst files after every Edit or Write. Installs a PostToolUse hook that runs `typst compile <file>` whenever a .typ file is modified.",
+      "source": "./plugins/typst-plugin"
     }
   ]
 }
