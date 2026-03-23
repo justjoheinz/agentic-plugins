@@ -1,16 +1,17 @@
 ---
 name: typst-plugin
-description: Guide for working with Typst projects. The hook auto-compiles on every edit; use this skill for manual compilation or troubleshooting.
+description: Guide for working with Typst projects via tinymist. The hook auto-compiles on every edit; see the tinymist skill for preview, formatting, and advanced compile options.
 ---
 
 # Typst Auto-Compile Plugin
 
-This plugin installs a PostToolUse hook that automatically runs `typst compile <file>`
+This plugin installs a PostToolUse hook that automatically runs `tinymist compile <file>`
 after every `Edit` or `Write` on a `.typ` file.
 
 ## Requirements
 
-- `typst` must be installed and on `$PATH`
+- `tinymist` must be installed and on `$PATH` (`brew install tinymist`)
+  - tinymist bundles its own Typst compiler — no separate `typst` install needed
 - `jq` must be installed and on `$PATH`
 
 ## Manual compilation
@@ -18,8 +19,10 @@ after every `Edit` or `Write` on a `.typ` file.
 To compile a Typst file explicitly:
 
 ```bash
-typst compile path/to/file.typ
+tinymist compile path/to/file.typ
 ```
+
+For preview, format options, and the live preview server, see the **tinymist** skill.
 
 ## Troubleshooting
 

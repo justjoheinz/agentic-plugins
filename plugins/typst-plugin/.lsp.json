@@ -1,0 +1,9 @@
+{
+  "typst": {
+    "command": "tinymist",
+    "args": ["lsp"],
+    "extensionToLanguage": {
+      ".typ": "typst"
+    }
+  }
+}
