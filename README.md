@@ -10,6 +10,12 @@ Redesign a web UI according to Dieter Rams' ten design principles: single accent
 
 **Source:** `plugins/ramsify`
 
+### haskell-plugin
+
+Haskell development support with HLS (Haskell Language Server) LSP integration and a skill for working with Haskell projects using GHC and Stack. Covers Stack/hpack, GHCi, RIO prelude, lenses, `hie.yaml` cradle configuration, HLint, Fourmolu, and common GHC flags.
+
+**Source:** `plugins/haskell-plugin`
+
 ## Structure
 
 ```

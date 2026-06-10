@@ -15,6 +15,11 @@
       "name": "typst-plugin",
       "description": "Auto-compile Typst files via tinymist after every Edit or Write. Provides a PostToolUse hook, tinymist LSP integration (semantic highlighting, go-to-def, hover, formatting), and a skill for compiling, previewing, and formatting Typst documents.",
       "source": "./plugins/typst-plugin"
+    },
+    {
+      "name": "haskell-plugin",
+      "description": "Haskell development support with HLS (Haskell Language Server) LSP integration and a skill for working with Haskell projects using GHC and Stack.",
+      "source": "./plugins/haskell-plugin"
     }
   ]
 }
